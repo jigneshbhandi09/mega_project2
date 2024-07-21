@@ -26,7 +26,7 @@ def save_stock_data(symbols, start_date, end_date):
         df = fetch_yahoo_finance_data(symbol, start_date, end_date)
         
         if df is not None:
-            df.to_csv(f"{symbol}_stock_data_2019_2020.csv", index=False)
+            df.to_csv(f"{symbol}_stock_data_2017_2018.csv", index=False)
             print(f"Data for {symbol} saved to {symbol}_stock_data_2017_2018.csv")
         else:
             print(f"Failed to fetch or save data for {symbol}")
