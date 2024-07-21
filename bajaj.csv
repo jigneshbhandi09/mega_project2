@@ -1,4 +1,4 @@
-Date	company	Open Price	High Price	Low Price	Close Price	No.of Shares	No. of Trades
+Date,	company,	Open Price,	High Price,	Low Price,	Close Price,	No.of Shares,	No. of Trades
 31-Dec-18	 BAJAJ ELECTRICALS LTD.	502.1	512	500.75	503.7	24238	759
 28-Dec-18	 BAJAJ ELECTRICALS LTD.	500.1	504.95	493.65	496.2	35443	548
 27-Dec-18	 BAJAJ ELECTRICALS LTD.	515.9	516	494	497.3	34709	1094
