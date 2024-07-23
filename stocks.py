@@ -28,7 +28,7 @@ def save_combined_data_to_csv(dataframes, filename):
     try:
         combined_df = pd.concat(dataframes, ignore_index=True)
         combined_df.sort_values(by='Date', ascending=True, inplace=True)
-        combined_df.to_csv(filename, index=False)
+        combined_df.to_csv(filename, index=False, columns=['Date', 'Company', 'Open', 'High', 'Low', 'Close', 'No. of Shares'])
         print(f"Data saved to {filename}")
     except Exception as e:
         print(f"Error saving data to {filename}: {e}")
